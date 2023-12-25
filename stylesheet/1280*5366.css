@@ -1,0 +1,1581 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    background: #EAEAEA;
+    height: 5336px;
+  }
+  h1 {
+    font-family: 'Commons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 163px;
+    color: #000000;
+  }
+  h2{
+color: #000;
+font-family: 'Commons';
+font-size: 150px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  h3{
+    font-family: 'Commons';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: normal;
+    color: #FFE500;
+  }
+  h4{
+    font-family: 'Commons';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: normal;
+    color: #FFE500;
+  }
+  h5{
+    font-family: 'Commons';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: normal;
+    color: #ffffff;
+  }
+  .section1{
+  display: flex;
+  gap: 16px;
+  margin: 16px;
+  }
+  /* заголовок «в порядке» */
+.zagolovok{
+    width: 1280px;
+    height: 720px;
+    top:0px;
+    position:relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.bl1{
+width: 278px;
+height: 250px;
+position:absolute;
+background: #000;
+bottom:250px;
+top: 470px;
+right: 1000px;
+left:0px;
+animation: bl1 7s linear forwards;
+animation-iteration-count: 1;
+ }
+ @keyframes bl1{
+0% {width:278px;}
+40%{width:1280px;}
+100% {width: 1280px;}
+}
+.bl2
+{   width: 278px;
+    height: 250px;
+    position: absolute;
+    background: #000;
+    top: 0px;
+    right: 0px;
+    animation: bl2 7s linear forwards;
+    animation-iteration-count: 1;
+ }
+ @keyframes bl2{
+    0% {width:278px;}
+    40%{width:1280px;}
+    100% {width: 1280px;}
+ }
+ .bl3 {
+    width: 250px;
+    height: 278px;
+    position: absolute;
+    background: #000;
+    top: 0px;
+    animation: bl3 7s linear forwards;
+    animation-iteration-count: 1;
+}
+ @keyframes bl3{
+    0% {height:278px;}
+    40%{height:550px;}
+    100% {height: 550px;}
+ }
+ .bl4{
+    width: 250px;
+    height: 278px;
+    position: absolute;
+    background: #000;
+    bottom:0px;
+    right: 0px;
+    animation: bl4 7s linear forwards;
+    animation-iteration-count: 1;
+ }
+ @keyframes bl4{
+    0% {height:278px;}
+    40%{height:550px;}
+    100% {height: 550px;} 
+ }
+ .bll5{
+    width: 780px;
+    height: 220px;
+    background:none;
+    position:absolute;
+    top: 250px;
+    bottom: 246px;
+    left:250px ;
+    right: 250px;
+    animation: bll5 4s forwards;
+    animation-delay: 3s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+} 
+@keyframes bll5{
+    0% {background: none;}
+    30% {background:#FFE500;}
+    50% {background: none;}
+    70% {background:#FFE500;}
+    100% {background: #FFE500;}
+}
+  .poryadok {
+  margin-top: 281px;
+  margin-left: 257px;
+  color: #000;
+  visibility: hidden;
+  white-space: nowrap;
+  animation: poryadok 7s forwards;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+@keyframes poryadok{
+    0% {opacity:0;visibility: hidden;}
+    43%{opacity:0;visibility: hidden;}
+    60%{opacity:0.5;visibility: visible;}
+    71%{opacity:0;visibility: hidden;}
+    82%{opacity:0.4;visibility: visible;}
+    90%{opacity:1;visibility: visible;}
+    92%{opacity:1;visibility: visible; color: black;}
+    93%{opacity:1;visibility: visible; color: #EAEAEA;}
+    94%{opacity:1;visibility: visible;color: #000;}
+    95%{opacity:1;visibility: visible;color: #EAEAEA;}
+    96%{opacity:1;visibility: visible;color: #000;}
+    100%{opacity:1;visibility: visible;}
+}
+/* чайник и чашка */
+.ctp{
+    width: 850px;
+    height: 730px;
+    position:relative;
+    background: #FFE500;
+    overflow: hidden;
+}
+.ok1{
+    opacity: 30%;
+    position:absolute;
+    font-size: 100px;
+    margin-top:-20px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.ok1:hover{
+    opacity: 100%;
+}
+.ok2{
+    opacity: 30%;
+    position:absolute;
+    font-size: 100px;
+    margin-top:100px;
+    margin-left: 272px;
+    cursor: pointer;
+}
+.ok2:hover{
+    opacity: 100%;
+}
+.ok3{
+    opacity: 30%;
+    position:absolute;
+    font-size: 100px;
+    margin-top:210px;
+    margin-left: 468px;
+    cursor: pointer;
+}
+.ok3:hover{
+    opacity: 100%;
+}
+.ok4{
+    opacity: 30%;
+    position:absolute;
+    font-size: 100px;
+    margin-top:579px;
+    margin-left: px;
+    cursor: pointer;
+}
+.ok4:hover{
+    opacity: 100%;
+}
+.ok5{
+    opacity: 30%;
+    position:absolute;
+    font-size: 100px;
+    margin-top:454px;
+    margin-left: 188px;
+    cursor: pointer;
+}
+.ok5:hover{
+    opacity: 100%;
+}
+.ok6{
+    opacity: 30%;
+    position:absolute;
+    font-size: 100px;
+    margin-top:339px;
+    cursor: pointer;
+    margin-left: 419px;
+}
+.ok6:hover{
+    opacity: 100%;
+}
+.teapot{
+    position:absolute;
+    transform: scale(-1,1) rotate(-38deg);
+    width: 600px;
+    height: 387px;
+    margin-top:40px;
+    margin-left:-265px;
+    flex-shrink: 0;
+    z-index: 1;
+}
+.cup{
+    position:absolute;
+    width: 359px;
+    height: 359px;
+    margin-top:372px;
+    margin-right:-28px;
+    margin-left:519px;
+    z-index: 1;
+}
+.jump {
+    width:464px;
+    height:477px;
+    flex-shrink: 0;
+    background: none;
+    position:relative;
+    left:286px;
+    top: 243px;
+    color: blanchedalmond;
+}
+/* бегущая строка «разложи всё по своим местам» */
+.ontheplace{
+    width:850px;
+    height:80px;
+    background:gray;
+    position: relative;
+    top: -2px;
+    overflow: hidden;
+    z-index: 2;
+}
+.place{
+    margin-top:15px;
+    margin-left:0px;
+    color: #ffffff;
+    white-space: nowrap;
+    animation: place 5s steps(5) infinite;
+}
+@keyframes place{
+    0%{margin-left:-2000px;}
+    50%{margin-left:0px;}
+    100%{margin-left:-2000px;}
+}
+.ba1{
+width: 33px;
+height: 33px;
+background:white 30%;
+border-radius: 50%;
+position: absolute;
+margin-left: 47px;
+margin-top: 45px;
+margin-bottom: 399px;
+margin-right: 384px;
+animation: ba1 6s linear infinite;
+}
+.ba2{
+width: 33px;
+height: 33px;
+background:white 30%;
+border-radius: 50%;
+position: absolute;
+margin-left: 47px;
+margin-top: 45px;
+margin-bottom: 399px;
+margin-right: 384px;
+animation: ba2 6s linear infinite;
+animation-delay: 0.5s;
+}
+.ba3{
+width: 33px;
+height: 33px;
+background:white 30%;
+border-radius: 50%;
+position: absolute;
+margin-left: 47px;
+margin-top: 45px;
+margin-bottom: 399px;
+margin-right: 384px;
+animation: ba3 6s linear infinite;
+animation-delay: 1s;
+}
+.ba4{
+    width: 33px;
+    height: 33px;
+    background:white 30%;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 47px;
+    margin-top: 45px;
+    margin-bottom: 399px;
+    margin-right: 384px;
+    animation: ba4 6s linear infinite;
+    animation-delay: 1.5s;
+    }
+.ba5{
+        width: 33px;
+        height: 33px;
+        background:white 30%;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 47px;
+        margin-top: 45px;
+        margin-bottom: 399px;
+        margin-right: 384px;
+        animation: ba5 6s linear infinite;
+        animation-delay: 2s;
+ }
+ .ba6{
+            width: 33px;
+            height: 33px;
+            background:white 30%;
+            border-radius: 50%;
+            position: absolute;
+            margin-left: 47px;
+            margin-top: 45px;
+            margin-bottom: 399px;
+            margin-right: 384px;
+            animation: ba6 6s linear infinite;
+            animation-delay: 2.5s;
+}
+            .ba7{
+                width: 33px;
+                height: 33px;
+                background:white 30%;
+                border-radius: 50%;
+                position: absolute;
+                margin-left: 47px;
+                margin-top: 45px;
+                margin-bottom: 399px;
+                margin-right: 384px;
+                animation: ba7 6s linear infinite;
+                animation-delay: 3s;
+                }
+                .ba8{
+                    width: 33px;
+                    height: 33px;
+                    background:white 30%;
+                    border-radius: 50%;
+                    position: absolute;
+                    margin-left: 47px;
+                    margin-top: 45px;
+                    margin-bottom: 399px;
+                    margin-right: 384px;
+                    animation: ba8 6s linear infinite;
+                    animation-delay: 3.5s;
+                    }
+                    .ba9{
+                        width: 33px;
+                        height: 33px;
+                        background:white 30%;
+                        border-radius: 50%;
+                        position: absolute;
+                        margin-left: 47px;
+                        margin-top: 45px;
+                        margin-bottom: 399px;
+                        margin-right: 384px;
+                        animation: ba9 6s linear infinite;
+                        animation-delay: 4s;
+                        }
+                        
+.ba10{
+                            width: 33px;
+                            height: 33px;
+                            background:white 30%;
+                            border-radius: 50%;
+                            position: absolute;
+                            margin-left: 47px;
+                            margin-top: 45px;
+                            margin-bottom: 399px;
+                            margin-right: 384px;
+                            animation: ba10 6s linear infinite;
+                            animation-delay: 4.5s;
+                            }
+@keyframes ba1{
+    0%{margin-top:45px; margin-left: 47px;}
+    10%{margin-top: 130px; margin-left: 80px;}
+    20%{ margin-top:241px; margin-left: 97px;}
+    30%{ margin-top: 337px; margin-left: 113px;}
+    40%{margin-top: 436px; margin-left:148px;}
+    50%{margin-top: 320px; margin-left:178px;}
+    60%{margin-top: 232px; margin-left:228px;}
+    70%{margin-top: 184px; margin-left:312px;}
+    80%{margin-top: 265px; margin-left:413px;}
+    90%{margin-top: 491px; margin-left: 417px;}
+    100% {margin-top: 491px; margin-left:30px;}
+}
+@keyframes ba2{
+    0%{margin-top:45px; margin-left: 47px;}
+    10%{margin-top: 130px; margin-left: 80px;}
+    20%{ margin-top:241px; margin-left: 97px;}
+    30%{ margin-top: 337px; margin-left: 113px;}
+    40%{margin-top: 436px; margin-left:148px;}
+    50%{margin-top: 320px; margin-left:178px;}
+    60%{margin-top: 232px; margin-left:228px;}
+    70%{margin-top: 184px; margin-left:312px;}
+    80%{margin-top: 265px; margin-left:413px;}
+    90%{margin-top: 491px; margin-left: 417px;}
+    100% {margin-top: 491px; margin-left:30px;}
+}
+@keyframes ba3{
+    0%{margin-top:45px; margin-left: 47px;}
+    10%{margin-top: 130px; margin-left: 80px;}
+    20%{ margin-top:241px; margin-left: 97px;}
+    30%{ margin-top: 337px; margin-left: 113px;}
+    40%{margin-top: 436px; margin-left:148px;}
+    50%{margin-top: 320px; margin-left:178px;}
+    60%{margin-top: 232px; margin-left:228px;}
+    70%{margin-top: 184px; margin-left:312px;}
+    80%{margin-top: 265px; margin-left:413px;}
+    90%{margin-top: 491px; margin-left: 417px;}
+    100% {margin-top: 491px; margin-left:30px;}
+}
+@keyframes ba4{
+    0%{margin-top:45px; margin-left: 47px;}
+    10%{margin-top: 130px; margin-left: 80px;}
+    20%{ margin-top:241px; margin-left: 97px;}
+    30%{ margin-top: 337px; margin-left: 113px;}
+    40%{margin-top: 436px; margin-left:148px;}
+    50%{margin-top: 320px; margin-left:178px;}
+    60%{margin-top: 232px; margin-left:228px;}
+    70%{margin-top: 184px; margin-left:312px;}
+    80%{margin-top: 265px; margin-left:413px;}
+    90%{margin-top: 491px; margin-left: 417px;}
+    100% {margin-top: 491px; margin-left:30px;}
+}
+@keyframes ba5{
+    0%{margin-top:45px; margin-left: 47px;}
+    10%{margin-top: 130px; margin-left: 80px;}
+    20%{ margin-top:241px; margin-left: 97px;}
+    30%{ margin-top: 337px; margin-left: 113px;}
+    40%{margin-top: 436px; margin-left:148px;}
+    50%{margin-top: 320px; margin-left:178px;}
+    60%{margin-top: 232px; margin-left:228px;}
+    70%{margin-top: 184px; margin-left:312px;}
+    80%{margin-top: 265px; margin-left:413px;}
+    90%{margin-top: 491px; margin-left: 417px;}
+    100% {margin-top: 491px; margin-left:30px;}
+}
+@keyframes ba6{
+    0%{margin-top:45px; margin-left: 47px;}
+    10%{margin-top: 130px; margin-left: 80px;}
+    20%{ margin-top:241px; margin-left: 97px;}
+    30%{ margin-top: 337px; margin-left: 113px;}
+    40%{margin-top: 436px; margin-left:148px;}
+    50%{margin-top: 320px; margin-left:178px;}
+    60%{margin-top: 232px; margin-left:228px;}
+    70%{margin-top: 184px; margin-left:312px;}
+    80%{margin-top: 265px; margin-left:413px;}
+    90%{margin-top: 491px; margin-left: 417px;}
+    100% {margin-top: 491px; margin-left:30px;}
+}
+@keyframes ba7{
+    0%{margin-top:45px; margin-left: 47px;}
+    10%{margin-top: 130px; margin-left: 80px;}
+    20%{ margin-top:241px; margin-left: 97px;}
+    30%{ margin-top: 337px; margin-left: 113px;}
+    40%{margin-top: 436px; margin-left:148px;}
+    50%{margin-top: 320px; margin-left:178px;}
+    60%{margin-top: 232px; margin-left:228px;}
+    70%{margin-top: 184px; margin-left:312px;}
+    80%{margin-top: 265px; margin-left:413px;}
+    90%{margin-top: 491px; margin-left: 417px;}
+    100% {margin-top: 491px; margin-left:30px;}
+}
+@keyframes ba8{
+    0%{margin-top:45px; margin-left: 47px;}
+    10%{margin-top: 130px; margin-left: 80px;}
+    20%{ margin-top:241px; margin-left: 97px;}
+    30%{ margin-top: 337px; margin-left: 113px;}
+    40%{margin-top: 436px; margin-left:148px;}
+    50%{margin-top: 320px; margin-left:178px;}
+    60%{margin-top: 232px; margin-left:228px;}
+    70%{margin-top: 184px; margin-left:312px;}
+    80%{margin-top: 265px; margin-left:413px;}
+    90%{margin-top: 491px; margin-left: 417px;}
+    100% {margin-top: 491px; margin-left:30px;}
+}
+@keyframes ba9{
+    0%{margin-top:45px; margin-left: 47px;}
+    10%{margin-top: 130px; margin-left: 80px;}
+    20%{ margin-top:241px; margin-left: 97px;}
+    30%{ margin-top: 337px; margin-left: 113px;}
+    40%{margin-top: 436px; margin-left:148px;}
+    50%{margin-top: 320px; margin-left:178px;}
+    60%{margin-top: 232px; margin-left:228px;}
+    70%{margin-top: 184px; margin-left:312px;}
+    80%{margin-top: 265px; margin-left:413px;}
+    90%{margin-top: 491px; margin-left: 417px;}
+    100% {margin-top: 491px; margin-left:30px;}
+}
+@keyframes ba10{
+    0%{margin-top:45px; margin-left: 47px;}
+    10%{margin-top: 130px; margin-left: 80px;}
+    20%{ margin-top:241px; margin-left: 97px;}
+    30%{ margin-top: 337px; margin-left: 113px;}
+    40%{margin-top: 436px; margin-left:148px;}
+    50%{margin-top: 320px; margin-left:178px;}
+    60%{margin-top: 232px; margin-left:228px;}
+    70%{margin-top: 184px; margin-left:312px;}
+    80%{margin-top: 265px; margin-left:413px;}
+    90%{margin-top: 491px; margin-left: 417px;}
+    100% {margin-top: 491px; margin-left:30px;}
+}
+.pen{
+    width: 430px;
+    height: 1418px;
+    position:relative;
+    background: rgb(255, 255, 255);
+    right: -850px;
+    bottom:810px;
+    overflow: hidden;
+    z-index: 5;
+}
+/* губка */
+.spc{
+    width: 850px;
+    height: 690px;
+    position:relative;
+    background: black;
+    right:0px;
+    top: -1500px;
+}
+.sponge{
+width: 150px;
+height: 118px;
+transform: rotate(-65deg);
+flex-shrink: 0;
+background:#FFE500;
+position: absolute;
+left:45px;
+top:280px;
+z-index: 1;
+animation: sponge 6s infinite linear;
+}
+@keyframes sponge{
+0%{left: 45x; top:280px;}
+50%{left:350px;top:540px; transform: rotate(-65deg);}
+50.5%{left:352px;top:510px;transform: rotate(-84deg);}
+50.7%{left:354px; top:492px; transform:rotate(-138deg);}
+97%{left:685px; top:110px;}
+}
+
+.chek{
+    width: 1px;
+    height: 517px;
+    top:128px;
+    right: 503px;
+    left:72px ;
+    position: absolute;
+    background: black;
+    display: inline-flex;
+    overflow: hidden;
+    animation: chek 6s infinite linear;
+}
+@keyframes chek{
+    0%{width:1px;}
+    100%{width:725px;}
+}
+.point{
+    position:absolute;
+    margin-top:40px;
+    margin-left:20px;
+
+}
+/* заборчик */
+.cil1{
+    width:430px;
+    height:80px;
+    position:relative;
+
+}
+.bp1{
+    position:absolute;
+    margin-left: 94px;
+    animation: bp1 9s linear infinite;
+}
+@keyframes bp1{
+    0%{margin-left: 94px;}
+    5%{margin-left: 122px;}
+    95%{margin-left: 122px;}
+    100%{margin-left:94px;}
+}
+
+.cil2{
+    width:430px;
+    height:80px;
+    position:absolute;
+    top:80px;
+}
+.bp2{
+    position:absolute;
+    margin-left: 2px;
+    margin-top:0px;
+    animation: bp2 9s linear infinite;
+}
+@keyframes bp2{
+    5%{margin-left: 2px;}
+    10%{margin-left: 122px;}
+    90%{margin-left: 122px;}
+    95%{margin-left:2px;}
+}
+
+.cil3{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 160px;
+}
+.bp3{
+    position:absolute;
+    margin-left: 163px;
+    margin-top:0px; 
+    animation: bp3 9s linear infinite;
+}
+@keyframes bp3{
+    10%{margin-left: 163px;}
+    15%{margin-left: 122px;}
+    85%{margin-left: 122px;}
+    90%{margin-left:163px;}
+}
+.cil4{
+    width: 430px;
+    height:80px;
+    position:absolute;
+    top: 240px;
+}
+.bp4{
+    position:absolute;
+    margin-left: 26px;
+    margin-top:0px;
+    animation: bp4 9s linear infinite;
+}
+@keyframes bp4{
+    15%{margin-left: 26px;}
+    20%{margin-left: 122px;}
+    80%{margin-left: 122px;}
+    85%{margin-left:26px;}
+}
+.cil5{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 320px;
+}
+.bp5{
+    position:absolute;
+    margin-left: 199px;
+    margin-top:0px;
+    animation: bp5 9s linear infinite;
+}
+@keyframes bp5{
+    20%{margin-left: 199px;}
+    25%{margin-left: 122px;}
+    75%{margin-left: 122px;}
+    80%{margin-left:199px;}
+}
+
+.cil6{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 400px;
+}
+.bp6{
+    position:absolute;
+    margin-left: 58px;
+    margin-top:0px;
+    animation: bp6 9s linear infinite;
+}
+@keyframes bp6{
+    25%{margin-left: 58px;}
+    30%{margin-left: 122px;}
+    70%{margin-left: 122px;}
+    75%{margin-left:58px;}
+}
+.cil7{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 480px;
+}
+.bp7{
+    position:absolute;
+    margin-left: -16px;
+    margin-top:0px;
+    animation: bp7 9s linear infinite;
+}
+@keyframes bp7{
+    30%{margin-left: -16px;}
+    35%{margin-left: 122px;}
+    65%{margin-left: 122px;}
+    70%{margin-left:-16px;}
+}
+.cil8{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 560px;
+}
+.bp8{
+    position:absolute;
+    margin-left: 111px;
+    margin-top:0px;
+    animation: bp8 9s linear infinite;
+}
+@keyframes bp8{
+    35%{margin-left: 111px;}
+    40%{margin-left: 122px;}
+    60%{margin-left: 122px;}
+    65%{margin-left: 111px;}
+}
+.cil9{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 640px;
+}
+.bp9{
+    position:absolute;
+    margin-left: 183px;
+    margin-top:0px;
+    animation: bp9 9s linear infinite;
+}
+@keyframes bp9{
+    40%{margin-left: 183px;}
+    45%{margin-left: 122px;}
+    55%{margin-left: 122px;}
+    60%{margin-left: 183px;}
+}
+.cil10{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 720px;
+}
+.bp10{
+    position:absolute;
+    margin-left: 78px;
+    margin-top:0px;
+    animation: bp10 9s linear infinite;
+}
+@keyframes bp10{
+    40%{margin-left: 78px;}
+    45%{margin-left: 122px;}
+    55%{margin-left: 122px;}
+    60%{margin-left: 78px;}
+}
+.cil11{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 800px;
+}
+.bp11{
+    position:absolute;
+    margin-left: 35px;
+    margin-top:0px;
+    animation: bp11 9s linear infinite;
+}
+@keyframes bp11{
+    35%{margin-left: 35px;}
+    40%{margin-left: 122px;}
+    60%{margin-left: 122px;}
+    65%{margin-left: 35px;}
+}
+.cil12{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 880px;
+}
+.bp12{
+    position:absolute;
+    margin-left: 182px;
+    margin-top:0px;
+    animation: bp12 9s linear infinite;
+}
+@keyframes bp12{
+    30%{margin-left: 182px;}
+    35%{margin-left: 122px;}
+    65%{margin-left: 122px;}
+    70%{margin-left: 182px;}
+}
+.cil13{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 960px;
+}
+.bp13{
+    position:absolute;
+    margin-left: 55px;
+    margin-top:0px;
+    animation: bp13 9s linear infinite;
+}
+@keyframes bp13{
+    25%{margin-left: 55px;}
+    30%{margin-left: 122px;}
+    70%{margin-left: 122px;}
+    75%{margin-left: 55px;}
+}
+.cil14{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 1040px;
+}
+.bp14{
+    position:absolute;
+    margin-left: 270px;
+    margin-top:0px;
+    animation: bp14 9s linear infinite;
+}
+@keyframes bp14{
+    20%{margin-left: 270px;}
+    25%{margin-left: 122px;}
+    75%{margin-left: 122px;}
+    80%{margin-left: 270px;}
+}
+.cil15{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 1120px;
+}
+.bp15{
+    position:absolute;
+    margin-left: 97px;
+    margin-top:0px;
+    animation: bp15 9s linear infinite;
+}
+@keyframes bp15{
+    15%{margin-left: 97px;}
+    20%{margin-left: 122px;}
+    80%{margin-left: 122px;}
+    85%{margin-left: 97px;}
+}
+.cil16{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 1200px;
+}
+.bp16{
+    position:absolute;
+    margin-left: 129px;
+    margin-top:0px;
+    animation: bp16 9s linear infinite;
+}
+@keyframes bp16{
+    10%{margin-left: 129px;}
+    15%{margin-left: 122px;}
+    85%{margin-left: 122px;}
+    90%{margin-left: 129px;}
+}
+.cil17{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 1280px;
+}
+.bp17{
+    position:absolute;
+    margin-left: 234px;
+    margin-top:0px;
+    animation: bp17 9s linear infinite;
+}
+@keyframes bp17{
+    5%{margin-left: 234px;}
+    10%{margin-left: 122px;}
+    90%{margin-left: 122px;}
+    95%{margin-left: 234px;}
+}
+.cil18{
+    width: 430px;width:430px;
+    height:80px;
+    position:absolute;
+    top: 1360px;
+}
+.bp18{
+    position:absolute;
+    margin-left: 69px;
+    animation: bp18 9s linear infinite;
+}
+@keyframes bp18{
+    0%{margin-left: 69px;}
+    5%{margin-left: 122px;}
+    95%{margin-left: 122px;}
+    100%{margin-left: 69px;}
+}
+.figures {
+width: 643px;
+height: 720px;
+position:relative;
+background: gray;
+left: 318px;
+top: -1500px;
+overflow: hidden;
+z-index: 1;
+}
+/* бегущая строка «эффективно» */
+.block1{
+    width: 318px;
+    height: 720px;
+    background: #ffffff;
+    position: relative;
+    top:-2220px;
+    left:0px;
+    overflow:hidden;
+}
+.effective{
+    margin:40px;
+    margin-top:-600px;
+    white-space: nowrap;
+    transform: rotate(90deg);
+    animation: effective 9s linear infinite;
+}
+@keyframes effective {
+    0% {margin-top: -600px;}
+    100% {margin-top: -4570px;}
+  }
+  /* бегущая строка «продуктивно» */
+.block2{
+    width:319px;
+    height: 720px;
+    background: #ffffff;
+    position: relative;
+    top: -2940px;
+    left: 961px;
+    overflow: hidden;
+    z-index: 1;
+}
+.productive{
+    margin:40px;
+    margin-top:1200px;
+    white-space: nowrap;
+    transform: rotate(-90deg);
+    animation: productive 9s linear infinite;
+}
+@keyframes productive {
+    0%{margin-top: 600px;}
+    100% {margin-top:4800px;}
+  }
+  /* хаос из кубиков */
+.c1{
+    width: 115px;
+    height: 115px;
+    background:#000;
+    position: absolute;
+    top: 0px;
+    right: 528px;
+    animation: c1 0.5s linear infinite;
+}
+@keyframes c1{
+    0%{top:0px; right:528px;}
+    25%{top:202px; right:0px;}
+    50%{top:375px; right:528px;}
+    75%{top:604px; right:247px;}
+    100%{top: 0px;right: 528px;}
+}
+.c2{
+    width: 115px;
+    height: 115px;
+    background:#000;
+    position: absolute;
+    top: 0px;
+    right:0px;
+    animation: c2 0.5s linear infinite;
+}
+@keyframes c2{
+    0%{top:0px; right:0px;}
+    25%{top:604px; right:355px;}
+    50%{top:157px; right:528px;}
+    75%{top:604px; right:390px;}
+    100%{top: 0px;right: 0px;}
+}
+.c3{
+    width: 115px;
+    height: 115px;
+    background:#000;
+    position: absolute;
+    top: 604px;
+    right: 528px;
+    animation: c3 0.5s linear infinite;
+}
+@keyframes c3{
+    0%{top:604px; right:528px;}
+    25%{top:0px; right:264px;}
+    50%{top:204px; right:528px;}
+    75%{top:0px; right:322px;}
+    100%{top: 604px;right: 528px;}
+}
+.c4{
+    width: 115px;
+    height: 115px;
+    background:#000;
+    position: absolute;
+    top: 604px;
+    left: px;
+    animation: c4 0.5s linear infinite;
+}
+@keyframes c4{
+    0%{top:604px; left:528px;}
+    25%{top:260px; left:0px;}
+    50%{top:489px; left:528px;}
+    75%{top:203px; left:0px;}
+    100%{top: 604px;left: 528px;}
+}
+.c5{
+    width: 115px;
+    height: 115px;
+    background:#000;
+    position: absolute;
+    top: 302px;
+    left: 0px;
+    animation: c5 0.5s linear infinite;
+}
+@keyframes c5{
+    0%{top:302px; left:0px;}
+    25%{top:604px; left:528px;}
+    50%{top:0x; left:264px;}
+    75%{top:393px; left:528px;}
+    100%{top: 302px;left: 0px;}
+}
+.c6{
+    width: 115px;
+    height: 115px;
+    background:#000;
+    position: absolute;
+    top: 302px;
+    left: 528px;
+    animation: c6 0.5s linear infinite;
+}
+@keyframes c6{
+    0%{top:302px; left:528px;}
+    25%{top:0px; left:0px;}
+    50%{top:282x; left:604px;}
+    75%{top:68px; left:528px;}
+    100%{top: 302px;left: 528px;}
+}
+/* розетки «новая мысль» */
+.rozetki {
+    width: 618px;
+    height: 720px;
+    position:relative;
+    bottom: 2940px;
+    left: 662px;
+    background: #FFE500;
+    overflow: hidden;
+}
+.roz1 {
+    width: 365px;
+    height:430px;
+    top: 0x;
+    right: 415px;
+    background:black;
+    position: absolute;
+    z-index: 1;
+}
+.new{
+    margin-left:150px;
+    margin-top: 200px;
+    transform: rotate(90deg);
+    animation: new 0.1s linear infinite;
+}
+@keyframes new{
+    0% {color: #FFE500;}
+    50%{color: #ffffff;}
+    100%{color: #000;}
+}
+.roz2 {
+    width: 365px;
+    height:430px;
+    bottom:0px;
+    left: 415px;
+    background:black;
+    position: absolute;
+    z-index: 2;
+}
+.thought{
+    margin-right:150px;
+    margin-top: 200px;
+    transform: rotate(90deg);
+    animation: thought 0.1s linear infinite;
+}
+@keyframes thought{
+    0% {color: #FFE500;}
+    50%{color: #ffffff;}
+    100%{color: #000;}
+}
+.provod1{
+width: 430px;
+height: 335px;
+position: absolute;
+top: 0px;
+right: 50px;
+background: none;
+animation: provod1 3.1s linear;
+animation-delay: 0.1s ;
+overflow: hidden;
+z-index: 3;
+}
+@keyframes provod1 {
+    0% {width: 5px}
+    50% {width: 430px;}
+    100% {width: 430px;}
+}
+.pr1 {
+    top: 40px;
+    right: 40px;
+    position: absolute;
+}
+.provod2{
+width: 430px;
+height: 600px;
+position: absolute;
+top: 333px;
+left: 0px;
+background:none;
+overflow: hidden;
+animation: provod2 3s linear;
+}
+@keyframes provod2 {
+    0% {width: 5px}
+    50% {width: 430px;}
+    100% {width: 430px;}
+}
+.pr2 {
+    bottom: 300px;
+    left: 54px;
+    position: absolute;
+}
+/* тетрис */
+.tetris {
+width: 662px;
+height: 1447px; 
+background:black;
+bottom: 3660px;
+position: relative;
+overflow: hidden;
+}
+/* порядок в голове–порядок в жизни */
+.livehead{
+    width:342px;
+    height:429px;
+    background: #ffffff;
+    position: relative;
+    top: 0px;
+    left: 319px;
+    z-index: 1;
+    }
+    .livehead:hover ~.vgolove .vzhyzny{
+        animation:vzhyzny 4s steps(2);
+        animation:vgolove 4s steps(2);
+      }
+    .vgolove{
+     position: absolute;
+     margin-top: 30px;
+     margin-left:15px;
+     color: #000;
+     font-size: 25px;
+     white-space: nowrap;
+    }
+    @keyframes vgolove{
+        0%{margin-top: 30px;}
+        25%{margin-top: 100px;}
+        50%{margin-top: 138px;}
+        75%{margin-top: 100px;}
+        100%{margin-top: 30px;}
+        
+    }
+    .vzhyzny{
+     position: absolute;
+     margin-top: 360px;
+     margin-left:20px;
+     color: #000;
+     font-size: 25px;
+     white-space: nowrap;
+    }
+    @keyframes vzhyzny{
+        0%{margin-top: 360px;}
+        25%{margin-top: 227px;}
+        50%{margin-top: 191px;}
+        75%{margin-top: 227px;}
+        100%{margin-top: 360px;}
+        }
+.cube {
+width: 192px;
+height: 193px;
+top: 1254px;
+right: 470px;
+position: absolute;
+background: #ffffff;
+}
+.cube2{
+width: 97px;
+height: 97px;
+top: 1351px;
+right:373px;
+background: #FFE500;
+position: absolute;
+}
+.plg1 {
+   width: 94px;
+   height: 195px;
+   top: 1059px;
+   right: 568px;
+   position: absolute;
+   background:gray;
+}
+.igr6 {
+top:1059px;
+right:373px;
+position: absolute;
+}
+.igr {
+    position: absolute;
+    top:1157px;
+    right:274px;
+}
+.igr4 {
+    top:961px;
+    right: 275px;
+    position: absolute;
+}
+.plg2{
+width: 194px;
+height: 100px;
+top:864px;
+right:276px;
+position: absolute;
+background: white;
+}
+.igr5 {
+ position: absolute;
+ top: 1059px;
+ right: 81px;
+}
+.plg3 {
+width: 210px;
+height: 97px;
+top:1350px;
+right: 66px;
+position: absolute;
+background: white;
+}
+.cube4 {
+width: 97px;
+height: 97px;
+top:1350px;
+right:-14px;
+position: absolute;
+background: #FFE500;
+}
+.cube15{
+    width:103px;
+    height:100px;
+    background: #ffffff;
+    position: absolute;
+    top:1155px;
+    left:286px;
+}
+.igr2{
+    top: 1059px;
+    right: 0px;
+    position: absolute;
+}
+.igr3{
+    top:962px;
+    right:0px;
+    position: absolute;
+}
+.moveplg1{
+width: 194px;
+height: 100px;
+position: absolute;
+top:378px;
+right: 276px;
+background: #FFE500;
+animation: moveplg1 10s steps(8) infinite;
+}
+@keyframes moveplg1{
+    0%{top:378px}
+    80%{top:770px}
+    100%{top:770px}
+}
+
+.igr8{
+width: 195px;
+height: 293px;
+position: absolute;
+top:478px;
+left:-50px;
+animation: igr8 10s steps(6) infinite;
+}
+
+@keyframes igr8{
+0%{top:478px}
+50% {top:767px}
+100% {top:767px}
+}
+.movecub3{
+width: 188px;
+height: 195px;
+position: absolute;
+top: 673px;
+right: -9px;
+background: #FFE500;
+animation: movecub3 10s steps(3) infinite;
+}
+@keyframes movecub3{
+    0% {top:673px}
+    30% {top:770px}
+    100% {top:770px}
+}
+.igr8 {
+    position: absolute;
+    top:478px;
+    left:-2px;
+}
+.movecube4 {
+    width:101px;
+    height:101px;
+    position:absolute;
+    top: 187px;
+    right:0px;
+    background: gray;
+    animation: movecube4 10s steps(8) infinite;
+}
+@keyframes movecube4{
+    0% {top:187px}
+    80% {top:669px}
+    100% {top:669px}
+}
+.movecube5 {
+    width:101px;
+    height:101px;
+    background: #FFE500;
+    position:absolute;
+    top:0px;
+    left: -5px;
+    animation: movecube5 10s steps(7) infinite;
+}
+@keyframes movecube5 {
+0%{top: 0px;}
+70%{top:667px;}
+100%{top:667px;}
+}
+.logo{
+    width:618px;
+    height:726px;
+    background: #ffffff;
+    position: relative;
+    bottom:4386px;
+    left:662px ;
+}
+.B {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+.B2{
+    position: absolute;
+    top: 120px;
+    left: 235px;
+}
+.B3{
+    position: absolute;
+    top: 120px;
+    left: 420px;
+}
+.B4{
+    position: absolute;
+    top: 290px;
+    left: 50px;
+}
+.B5{
+    position: absolute;
+    top: 290px;
+    left: 235px;
+}
+.B6{
+    position: absolute;
+    top: 290px;
+    left: 420px;
+}
+.B7{
+    position: absolute;
+    top: 460px;
+    left: 50px;
+}
+.B8{
+    position: absolute;
+    top: 460px;
+    left: 240px;
+}
+.B9{
+    position: absolute;
+    top: 460px;
+    left: 420px;
+}
+/* бегущая строка «избавься от хаоса» */
+.chaos {
+    width: 1280px;
+    height: 173px;
+    background: #000;
+    position: relative;
+    bottom: 4390px;
+    overflow: hidden;
+}
+.ridof{
+font-family:Commons;
+font-size: 100px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #FFE500;
+position: absolute;
+white-space: nowrap;
+margin-top: 24px;
+margin-left:-2000px;
+animation: ridof 5s linear infinite;
+}
+@keyframes ridof{
+    0%{margin-left: -2000px;}
+    100%{margin-left: 1000px;}
+}
+/* пазл */
+.puzzle {
+    width: 1280px;
+    height: 720px;
+    background: grey;
+    position: relative;
+    bottom: 4390px;
+}
+.pzl1{
+    position: absolute;
+    top:360px;
+    left:0px;
+    animation: pzl1 15s linear infinite;
+}
+@keyframes pzl1{
+    0%{top:360px;left: 0px}
+    20%{top:360px;left: 0px}
+    25%{top:0px;left: 0px}
+    30%{top:0px;left: 316px}
+    50%{top:0px;left: 316px}
+    70%{top:0px;left: 316px}
+    75%{top:360px;left: 316px}
+    80%{top:360px;left: 0px}
+    100%{top:360px;left: 0px}
+}
+.pzl2{
+    position: absolute;
+    top:0px;
+    left:317px;
+    animation: pzl2 15s linear infinite;
+}
+@keyframes pzl2{
+    0%{top:0px; left:317px;}
+    5%{top:360px; left: 317px;}
+    10%{top:360px; left: 317px;}
+    15%{top:360px; left: 633px;}
+    50%{top:360px;left: 633px;}
+    55%{top:360px; left:317px;}
+    60%{top:360px; left: 317px;}
+    65%{top:0px; left: 317px;}
+    100%{top:0px; left: 317px;}
+}
+.pzl3{
+    position: absolute;
+    top:360px;
+    left:637px;
+    animation: pzl3 15s linear infinite;
+}
+@keyframes pzl3{
+    0%{top:360px; left:637px;}
+    5%{top:360px; left: 637px;}
+    10%{top:360px; left: 959px;}
+    15%{top:0px; left: 959px;}
+    30%{top:0px; left: 959px;}
+    35%{top:0px; left: 633px;}
+    50%{top:0px; left: 633px;}
+    55%{top:0px; left:633px;}
+    60%{top:0px; left: 959px;}
+    65%{top:360px; left: 959px;}
+    80%{top:360px; left: 959px;}
+    85%{top:360px; left: 637px;}
+    100%{top:360px; left: 637px;}
+}
+.pzl4{
+    position: absolute;
+    left:959px;
+    animation: pzl4 15s linear infinite;
+}
+@keyframes pzl4{
+    0%{top:0px; left:959px;}
+    5%{top:0px; left: 637px;}
+    10%{top:0px; left: 316px;}
+    20%{top:0px; left: 316px;}
+    25%{top:360px; left: 316px;}
+    50%{top:360px; left: 316px;}
+    55%{top:0px; left:316px;}
+    60%{top:0px; left: 637px;}
+    70%{top:0px; left: 637px;}
+    75%{top:0px; left: 959px;}
+    100%{top:0px; left: 959px;}
+}
+/* подпись */
+.sign {
+    width: 1280px;
+    height: 147px;
+    background: black;
+    position: relative;
+    bottom: 4450px;
+}
+.hse {
+   position: absolute; 
+   right: 63px;
+   top: 0px;
+}
+.name{
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 54px;
+    margin-left: 66px;
+}
+.group{
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 54px;
+    margin-left: 562px;
+}

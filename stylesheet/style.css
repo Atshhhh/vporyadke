@@ -1,0 +1,6 @@
+@import "reset.css";
+@import "1280*5366.css";
+@font-face {
+    font-family:Commons ;
+    src: url(../fonts/TT\ Commons\ Pro\ Educational\ Expanded\ ExtraBold.ttf);
+}
